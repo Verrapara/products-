@@ -9,4 +9,6 @@ while True:
 	# p.append(price) 小清單
 	products.append([name, price]) #直接創作小清單
 print(products)
-products[0][0]
+
+for p in products:
+	print(p[0],'的價格是',p[1])
